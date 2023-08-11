@@ -81,28 +81,28 @@ h1 {
   .uvod .content p:nth-child(3) {
     font-size: 1.1rem;
     position: absolute;
-    bottom: 12rem;
+    bottom: 11rem;
     transition: 0.3s;
   }
 
   .uvod .content p:nth-child(4) {
     font-size: 1.1rem;
     position: absolute;
-    bottom: 7.5rem;
+    bottom: 5.5rem;
     transition: 0.3s;
   }
 
   .uvod .content p:nth-child(5) {
     font-size: 1.1rem;
     position: absolute;
-    bottom: 3.5rem;
+    bottom: 2.5rem;
     transition: 0.3s;
   }
 
   .uvod .content p:nth-child(6) {
     font-size: 1.1rem;
     position: absolute;
-    bottom: 1rem;
+    bottom: 0rem;
     transition: 0.3s;
   }
 }

@@ -1,8 +1,9 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./Kontakt.css";
 
 const Kontakt = () => {
+  const [showNotification, setShowNotification] = useState(false);
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -54,7 +55,12 @@ const Kontakt = () => {
         />{" "}
         <br />
         <textarea name="message" placeholder="Vaše zpráva" required /> <br />
-        <button>Odeslat</button>
+        <span>
+          <button onClick={() => setShowNotification(!showNotification)}>
+            Odeslat
+          </button>
+          {showNotification && <p>Email odeslán!</p>}
+        </span>
       </form>
     </div>
   );

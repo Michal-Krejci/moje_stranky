@@ -12,10 +12,8 @@ const Uvod = () => {
           webových stránek.
         </p>
         <p>
-          {" "}
           Na těchto stránkách Vám ukážu moje dovednosti a znalosti, &nbsp;
-          tech-stack, dozvíte se také něco o mně a v neposlední řadě zde najdete
-          kontakty na mne.
+          tech-stack, dozvíte se také něco o mně a také mi můžete napsat zprávu.
         </p>
         <p>Děkuji Vám za návštěvu a přeji hezký pobyt na mých stránkách</p>
       </div>
