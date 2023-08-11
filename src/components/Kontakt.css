@@ -1,0 +1,62 @@
+.kontakt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.phone-icon {
+  font-size: 55px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.cislo {
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  justify-content: center;
+  align-self: center;
+}
+
+.cislo2 {
+  padding-left: 1rem;
+}
+
+.mail {
+  font-family: sans-serif;
+}
+form {
+  margin-top: 15px;
+  text-align: center;
+}
+
+form input,
+textarea {
+  max-width: 25rem;
+  padding: 20px 50px;
+  margin: 5px;
+  font-size: 22px;
+  border-radius: 10px;
+  border: solid 2px black;
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+button {
+  width: 25rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 20px 110px;
+  margin: 5px;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+}
+
+button:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}

@@ -1,0 +1,23 @@
+:root {
+  --primary-color: rgb(19, 216, 95);
+  --secondary-color: red;
+  --overlay: rgba(0, 0, 0, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url(../src/images/soap-bubble-png.webp);
+}
