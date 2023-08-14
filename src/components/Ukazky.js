@@ -8,7 +8,7 @@ const Ukazky = () => {
       <p>
         Zadání - vytvořte stránku pro <br />
         <a
-          href="https://cvikohotel.netlify.app/"
+          href="https://cvicenihotel.netlify.app/"
           className="odkazy_ukazky"
           target="_blank"
         >

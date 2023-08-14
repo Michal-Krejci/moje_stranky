@@ -46,10 +46,6 @@ const TechStack = () => {
       </div>
       <div className="stack">
         <div className="sloupec-ikon">
-          <DiPhp className="icon php" />
-          <span className="text">PHP</span>
-        </div>
-        <div className="sloupec-ikon">
           <DiGithubBadge className="icon git" />
           <span className="text odkazy_ukazky">
             <a href="https://www.github.com/Michal-Krejci" target="_blank">
